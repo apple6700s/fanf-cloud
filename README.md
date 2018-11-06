@@ -10,7 +10,7 @@ Fanf Cloud 基于 Spring Boot, Spring Cloud 构建微服务架构企业级开发
 
 ## 服务介绍
 
-项目名称	| 编号 | 名称	| 说明	
+项目名称	| 编号 | 名称	| 说明()	
 ------------- | ------------- | ------------------------- | -------------
 fanf-cloud-auth	| auth-service | 认证服务	| 基于SpringSecurity进行安全认证，采用OAuth2.0认证体系，对客户端、用户进行认证及授权，支持账号密码登录，短信验证码登录	
 fanf-cloud-config | config	| 配置服务	| 基于Spring Cloud构建统一配置服务，负责管理所有服务的配置文件
