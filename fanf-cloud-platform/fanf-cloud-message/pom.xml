@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.fanf.cloud</groupId>
+    <artifactId>fanf-cloud-message</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>fanf-cloud-message</name>
+    <parent>
+        <groupId>com.fanf.cloud</groupId>
+        <artifactId>fanf-cloud-platform</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modules>
+        <module>fanf-cloud-message-client</module>
+        <module>fanf-cloud-message-service</module>
+        <module>fanf-cloud-message-model</module>
+    </modules>
+
+</project>
